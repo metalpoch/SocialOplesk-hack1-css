@@ -60,9 +60,24 @@ body {
   display: grid;
   width: 500px;
   height: 300px;
-  margin: auto;
-  border-radius: 6px;
   grid-template-columns: 30% 70%;
+}
+
+.card-border {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card h3 {
+  font-weight: 100;
+}
+
+.card li {
+  margin-bottom: 10px;
+}
+
+.card span {
+  margin-left: 5px;
 }
 
 .border-image {
@@ -77,7 +92,7 @@ body {
 
 .image {
   background-image: url(./reto_css_2.png);
-  background-size: 167%;
+  background-size: 165%;
   background-position: right center;
   border-radius: 50%;
   width: 140px;
@@ -94,17 +109,6 @@ body {
   font-weight: 100;
 }
 
-.card h3 {
-  font-weight: 100;
-}
-
 .contact {
   margin-top: 30px;
-}
-
-li {
-  margin-bottom: 10px;
-}
-span {
-  margin-left: 5px;
 }
